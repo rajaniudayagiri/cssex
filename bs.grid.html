@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Document</title>
+
+    <style>
+        .box {
+            height: 95vh;
+            margin: 10x;
+        }
+
+        .menu {
+            background-color: burlywood;
+            /* padding: 0px; */
+        
+        
+        }
+
+        .menu-item {
+            padding: 10px;
+            border: none;
+        }
+
+        .menu-item:hover {
+            padding-right: 10px;
+            background-color: brown;
+            border: none;
+        }
+
+        .menu-item-link {
+            text-decoration: none;
+            color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="container row ">
+        <div class=" col-2 box  menu  ">
+            <div class="menu-item mt-2">
+                <a href="./home.html" class="menu-item-link" target="_container">home</a>
+            </div>
+
+            <div class="menu-item">
+                <a href="./registration.html" class="menu-item-link"  frameborder="none" target="_container"> registration</a>
+
+            </div>
+            <div class="menu-item">
+                <a href="./products.html" class="menu-item-link" frameborder="none" target="_container"> products</a>
+
+            </div>
+        </div class="row">  
+            <div class="col-9 box " style="border-left:3px solid rgb(111, 0, 255);">
+                <iframe src="./registration.html" width="100%" height="100%" name="_container"></iframe>
+
+            </div>
+        </div>
+</body>
+
+</html>
